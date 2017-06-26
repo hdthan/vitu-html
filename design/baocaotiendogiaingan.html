@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Báo cáo tiến độ giải ngân</title>
+      <!-- Tell the browser to be responsive to screen width -->
+      <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+      <!-- Bootstrap 3.3.5 -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="css/font-awesome.css">
+	   <!-- css app -->
+      <link rel="stylesheet" href="css/app.css">
+	  <link rel="stylesheet" href="css/_all-skins.css">
+	   <!-- css datepicker -->
+	   <link rel="stylesheet" href="css/jquery-ui.css">
+	  <!-- css custom -->
+	   <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body class="skin-blue sidebar-mini">
+      <div class="wrapper">
+         <header class="main-header">
+        <!-- Logo -->
+        <a href="index2.html" class="logo">
+          <!-- mini logo for sidebar mini 50x50 pixels -->
+          <span class="logo-mini"><b>A</b>llimi</span>
+          <!-- logo for regular state and mobile devices -->
+          <span class="logo-lg"><b>Allimi</b> Sở Nội vụ</span>
+        </a>
+        <!-- Header Navbar: style can be found in header.less -->
+        <nav class="navbar navbar-static-top" role="navigation">
+          <!-- Sidebar toggle button-->
+          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+          </a>
+          <div class="navbar-custom-menu">
+            <ul class="nav navbar-nav">
+        <!-- User Account-->
+		      <li class="dropdown notifications-menu">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <span>Quảng trị hệ thống</span>
+				   <i class="fa fa-fw fa-plus"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <!-- inner menu -->
+                    <ul class="menu">
+                      <li>
+                        <a href="#">
+                          <i class="fa fa-users text-aqua"></i> Đổi pass
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa fa-warning text-yellow"></i>Thêm user
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa fa-users text-red"></i> Edit
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa fa-shopping-cart text-green"></i> Thêm chức năng
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="user user-menu">
+                <a href="#" class="dropdown-toggle">
+                  <img src="images/user2-160x160.jpg" class="user-image">
+                  <span class="hidden-xs">Dương Quốc Sơn</span>
+                </a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-fw fa-sign-out"></i>Đăng xuất</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+	  <!-- Left side column. contains the logo and sidebar -->
+      <aside class="main-sidebar">
+        <!-- sidebar -->
+        <section class="sidebar">
+          <!-- sidebar menu -->
+          <ul class="sidebar-menu">
+            <li class="header">Danh mục menu</li>
+            <li class="active treeview">
+              <a href="#">
+                <i class="fa fa-dashboard"></i> <span>Menu 2 cấp</span> <i class="fa fa-fw fa-plus pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="index.html"><i class="fa fa-circle-o"></i> Menu cấp 2</a></li>
+                <li><a href="index2.html"><i class="fa fa-circle-o"></i> Menu cấp 2</a></li>
+              </ul>
+            </li>
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-share"></i> <span>Menu đa cấp</span>
+                <i class="fa fa-fw fa-plus pull-right"></i>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+                <li>
+                  <a href="#"><i class="fa fa-circle-o"></i> Level One <i class="fa fa-fw fa-plus pull-right"></i></a>
+                  <ul class="treeview-menu">
+                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
+                    <li>
+                      <a href="#"><i class="fa fa-circle-o"></i> Level Two <i class="fa fa-fw fa-plus pull-right"></i></a>
+                      <ul class="treeview-menu">
+                        <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                        <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
+              </ul>
+            </li>
+            <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Menu 1 cấp</span></a></li>
+            <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Menu 1 cấp</span></a></li>
+          </ul>
+        </section>
+        <!-- /.sidebar -->
+      </aside>
+	   <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+	         <!-- Content Header (Page header) -->
+				<section class="content-header">
+				  <h1>
+					Báo cáo tiến độ giải ngân
+				  </h1>
+				 
+				</section>
+			<!-- Main content -->
+				<section class="content">
+					<div class="box box-default">
+					     <div class="box-header with-border">
+						    <h3 class="box-title">Quý 3 Năm: 2011</h3>
+							<div class="box-tools pull-right">
+							    <div class="form-group">
+								  <label for="" class="col-sm-4 control-label">Đơn vị tính</label>
+								  <div class="col-sm-8">
+									<input class="form-control" id="" placeholder="USD" type="text">
+								  </div>
+								</div>
+							</div>
+						 </div>
+						  <div class="box-body">
+							    <div class="row">
+							     <div class="col-md-12">
+								     <div class="table-reponsive">
+                              <table id="" class="table table-striped table-bordered middle">
+                                 <thead>
+                                    <tr>
+                                       <th rowspan="3" colspan="3">Tên hạng mục hay hoạt động chủ yếu</th>
+									   <th rowspan="3">Lũy kế thực tế đến ngày 31/12/năm trước</th>
+									   <th colspan="11">Giải ngân trong năm</th>
+									   <th colspan="3" rowspan="2">Tổng cộng cho dự án</th> 
+                                    </tr>
+									<tr>
+									   <th colspan="2">Quý I</th>
+									    <th colspan="2">Quý II</th>
+										 <th colspan="2">Quý III</th>
+										  <th colspan="2">Quý IV</th>
+										   <th colspan="3">Tổng cộng trong năm</th>
+									</tr>
+									<tr>
+									   <th>Kế hoạch</th>
+									   <th>Thực tế</th>
+									   <th>Kế hoạch</th>
+									   <th>Thực tế</th>
+									   <th>Kế hoạch</th>
+									   <th>Thực tế</th>
+									   <th>Kế hoạch</th>
+									   <th>Thực tế</th>
+									   <th>Kế hoạch giải ngân năm</th>
+									   <th>Lũy kế thực tế từ đầu năm</th>
+									   <th>Tỷ lệ thực hiện kế hoạch năm (%)</th>
+									   <th>Tổng vốn đã ký</th>
+									   <th>Lũy kế thực tế từ đầu dự án</th>
+									   <th>Tỷ lệ giải ngân (%)</th>
+									</tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr class="bg-2">
+						              <td colspan="3">1</td>
+									  <td>2</td>
+									  <td>3</td>
+									  <td>4</td>
+									  <td>5</td>
+									  <td>6</td>
+									  <td>7</td>
+									  <td>8</td>
+									  <td>9</td>
+									  <td>10</td>
+									  <td>11</td>
+									  <td>12=4+68+10</td>
+									  <td>13=12/11</td>
+									  <td>14</td>
+									  <td>15=2+12</td>
+									  <td>16=15/14</td>
+									</tr>
+									<tr>
+									  <td rowspan="2">1</td>
+									  <td>EN</td>
+									  <td></td>
+									  <td rowspan="2">11.939.537</td>
+									  <td rowspan="2">0</td>
+									  <td rowspan="2">935.704</td>
+									  <td rowspan="2"></td>
+									  <td rowspan="2">1.713.737</td>
+									  <td rowspan="2"></td>
+									  <td rowspan="2">3.503.081</td>
+									  <td rowspan="2"></td>
+									  <td rowspan="2"></td>
+									  <td rowspan="2"></td>
+									  <td rowspan="2" class="bg-3">6.152.522</td>
+									  <td rowspan="2" class="bg-3">0%</td>
+									  <td rowspan="2">26.420.159</td>
+									  <td rowspan="2" class="bg-3">18.092.059</td>
+									  <td rowspan="2" class="bg-3">68%</td>
+									</tr>
+									<tr>
+									   <td>VN</td>
+									   <td>Nâng cấp đô thị</td>
+									</tr>
+									 <tr class="bg-3">
+						              <td colspan="3">Tổng</td>
+									  <td>2</td>
+									  <td>3</td>
+									  <td>4</td>
+									  <td>5</td>
+									  <td>6</td>
+									  <td>7</td>
+									  <td>8</td>
+									  <td>9</td>
+									  <td>10</td>
+									  <td>11</td>
+									  <td>12=4+68+10</td>
+									  <td>13=12/11</td>
+									  <td>14</td>
+									  <td>15=2+12</td>
+									  <td>16=15/14</td>
+									</tr>
+                                 </tbody>
+                              </table>
+                           </div>
+								 </div>
+								 </div>
+							 </div>
+					</div>	
+				</section>		
+	  </div>
+	  <!-- -->
+	  <footer class="main-footer">
+        <strong>Copyright &copy; 2017 <a href="#">Allimi Sở Nội Vụ</a>.</strong> All rights reserved.
+      </footer>
+	  <!-- -->
+      </div>
+      <!-- ./wrapper -->
+      <!-- jQuery 2.1.4 -->
+      <script src="js/jQuery-2.1.4.min.js"></script>
+      <script src="js/bootstrap.min.js"></script> 
+	  <script src="js/app.js"></script>
+	   <!-- js datepicker -->
+	   <script src="js/jquery-ui.js"></script>
+     <script>
+         $( function() {
+         $( "#datepicker1" ).datepicker();
+		 $( "#datepicker2" ).datepicker();
+         
+         } );
+      </script>
+
+   </body>
+</html>
+
