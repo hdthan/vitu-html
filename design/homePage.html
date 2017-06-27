@@ -15,60 +15,129 @@
 	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
-
-	<link href="./css" rel="stylesheet" type="text/css">
-
-	<link href="./css(1)" rel="stylesheet" type="text/css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="icon" href="http://thietkewebdanang.com/demo/DL20151209/images/front/favicon.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/datepicker.css">
 	<link rel="stylesheet" type="text/css" href="css/homePage.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body><div class="overally"></div>
 	<div id="wrapper">
 		<div id="header">
 			<div class="container">
 				<div class="header-top">
-					<p class="pull-left">
-						<span class="icon_adr">Số 50 Hàm Nghi, Tp Đà Nẵng</span>
-						<span class="icon_phone">1900 599 857</span>
-					</p>
-					<div class="pull-right">
-						<ul class="social">
-							<li><a href="http://thietkewebdanang.com/demo/DL20151209/#" class="icon_f">Facebook</a></li>
-							<li><a href="http://thietkewebdanang.com/demo/DL20151209/#" class="icon_t">Twitter</a></li>
-							<li><a href="http://thietkewebdanang.com/demo/DL20151209/#" class="icon_p">Pinterest</a></li>
-							<li><a href="http://thietkewebdanang.com/demo/DL20151209/#" class="icon_g">Google+</a></li>
-						</ul>
-					</div>
-					<div class="clear"></div>
+                        <span class="address-top fa fa-map-marker">&nbsp; Số 50 Hàm Nghi, Tp Đà Nẵng</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="address-top fa fa-volume-control-phone" >&nbsp; 1900 599 857</span>
+                    <div class="sign-up" >
+                        <a class="" href="http://thietkewebdanang.com/demo/DL20151209/#">Đăng ký</a>&nbsp;&nbsp;
+                        <a class="" href="http://thietkewebdanang.com/demo/DL20151209/#">Đăng nhập</a>
+                    </div>
 				</div> <!-- end header-top -->
 
-				<div class="header-bot">
-					<div class="pull-left logo">
-						<a href="http://thietkewebdanang.com/demo/DL20151209/#"><img src="images/logo.png" alt=""></a>
-					</div> <!-- end logo -->
-					<div class="pull-right block-menu">
-						<div class="navwrp"><a href="javascript:void(0)" class="smobitrigger ion-navicon-round inrwrpr"><span>Menu</span></a><ul class="menu inrwrpr"><a href="javascript:void(0)" class="mnuclose ion-close-round"></a>
-							<li class="active"><a href="http://thietkewebdanang.com/demo/DL20151209/#">Trang chủ</a></li>
-							<li><a href="http://thietkewebdanang.com/demo/DL20151209/#">Tour trong nước</a></li>
-							<li><a href="http://thietkewebdanang.com/demo/DL20151209/#">Tour ngoài nước</a></li>
-							<li>
-								<a href="http://thietkewebdanang.com/demo/DL20151209/#">Dịch vụ <!-- <span class="caret"></span> --></a>
-								<!-- <ul>
-									<li><a href="#">Xe du lịch</a></li>
-									<li><a href="#">Vé máy bay</a></li>
-									<li><a href="#">Làm visa</a></li>
-								</ul> -->
-							</li>
-							<li><a href="http://thietkewebdanang.com/demo/DL20151209/#">Tin tức</a></li>
-							<li><a href="http://thietkewebdanang.com/demo/DL20151209/#">Liên hệ</a></li>
-						</ul></div>
-						
-					</div> <!-- end block-menu -->
-					<div class="clear"></div>
-				</div> <!-- end header-bot -->
+                <nav class="navbar navbar-default header">
+                    <div class="container-fluid">
+                        <div class="pull-left logo">
+                            <a href=""><img class="logo" src="images/logo.png" alt=""></a>
+                        </div> <!-- end logo -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#menu-top-homepage" aria-expanded="false">
+                                <span class="sr-only"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="header-bot" >
+                            <div class="pull-right block-menu navbar-collapse collapse" id="menu-top-homepage">
+                                    <ul class="float-right-menu">
+                                        <li class="float-right-menu sign-up-2nd">
+                                            <a  class="float-right-menu" href="http://thietkewebdanang.com/demo/DL20151209/#">Đăng ký</a>
+                                        </li>
+                                        <li class="float-right-menu sign-up-2nd">
+                                            <a  class="float-right-menu" href="http://thietkewebdanang.com/demo/DL20151209/#">Đăng nhập</a>
+                                        </li>
+                                        <li class="join-btn float-right-menu" type="none"><select class="form-control float-right-menu" id="sel1" style="width: 150px">
+                                            <option>Chọn tỉnh thành</option>
+                                            <option>An Giang</option>
+                                            <option>Bà Rịa - Vũng Tàu</option>
+                                            <option>Bắc Giang</option>
+                                            <option>Bắc Kạn</option>
+                                            <option>Bạc Liêu</option>
+                                            <option>Bắc Ninh</option>
+                                            <option>Bến Tre</option>
+                                            <option>Bình Định</option>
+                                            <option>Bình Dương</option>
+                                            <option>Bình Phước</option>
+                                            <option>Bình Thuận</option>
+                                            <option>Cà Mau</option>
+                                            <option>Cao Bằng</option>
+                                            <option>Đắk Lắk</option>
+                                            <option>Đắk Nông</option>
+                                            <option>Điện Biên</option>
+                                            <option>Đồng Nai</option>
+                                            <option>Đồng Tháp</option>
+                                            <option>Gia Lai</option>
+                                            <option>Hà Giang</option>
+                                            <option>Hà Nam</option>
+                                            <option>Hà Tĩnh</option>
+                                            <option>Hải Dương</option>
+                                            <option>Hậu Giang</option>
+                                            <option>Hòa Bình</option>
+                                            <option>Hưng Yên</option>
+                                            <option>Khánh Hòa</option>
+                                            <option>Kiên Giang</option>
+                                            <option>Kon Tum</option>
+                                            <option>Lai Châu</option>
+                                            <option>Lâm Đồng</option>
+                                            <option>Lạng Sơn</option>
+                                            <option>Lào Cai</option>
+                                            <option>Long An</option>
+                                            <option>Nam Định</option>
+                                            <option>Nghệ An</option>
+                                            <option>Ninh Bình</option>
+                                            <option>Ninh Thuận</option>
+                                            <option>Phú Thọ</option>
+                                            <option>Quảng Bình</option>
+                                            <option>Quảng Nam</option>
+                                            <option>Quảng Ngãi</option>
+                                            <option>Quảng Ninh</option>
+                                            <option>Quảng Trị</option>
+                                            <option>Sóc Trăng</option>
+                                            <option>Sơn La</option>
+                                            <option>Tây Ninh</option>
+                                            <option>Thái Bình</option>
+                                            <option>Thái Nguyên</option>
+                                            <option>Thanh Hóa</option>
+                                            <option>Thừa Thiên Huế</option>
+                                            <option>Tiền Giang</option>
+                                            <option>Trà Vinh</option>
+                                            <option>Tuyên Quang</option>
+                                            <option>Vĩnh Long</option>
+                                            <option>Vĩnh Phúc</option>
+                                            <option>Yên Bái</option>
+                                            <option>Phú Yên</option>
+                                            <option>Cần Thơ</option>
+                                            <option>Đà Nẵng</option>
+                                            <option>Hải Phòng</option>
+                                            <option>Hà Nội</option>
+                                            <option>TP HCM</option>
+                                        </select></li>
+                                        <li class="join-btn float-right-menu" type="none"><button type="button" class="float-right-menu btn btn-success" style="margin-bottom: 5px;">Trở thành gia sư</button></li>
+                                    </ul>
+                            </div> <!-- end block-menu -->
+                            <!--<div class="clear"></div>-->
+                        </div> <!-- end header-bot -->
+                    </div>
+                </nav>
+
+
+
 			</div>
 		</div> <!-- end header -->
 
@@ -89,6 +158,7 @@
 								</div>
 							</div> <!-- end txt-info -->
 						</li>
+
 						<li id="rslides1_s1" class="rslides1_on" style="float: left; position: relative; opacity: 1; z-index: 2; display: list-item; transition: opacity 500ms ease-in-out;">
 							<img src="images/slider-2.jpg" alt="">
 							<div class="txt-info">
@@ -109,7 +179,7 @@
 						<div class="search-info">
 							<ul>
 								<li class="location_">
-									<input type="text" class="form-control" placeholder="Điền điểm đến yêu thích của bạn" id="">
+									<input type="text" class="form-control" placeholder="Điền điểm đến yêu thích của bạn" >
 								</li>
 								<li class="date_">
 									<input type="text" class="form-control" placeholder="Ngày đi" id="date-out">
@@ -129,7 +199,7 @@
 								</li>
 								<li class="select_">
 									<label for="">
-										<select id="" class="form-control">
+										<select  class="form-control">
 											<option value="">Số người</option>
 											<option value="">1</option>
 											<option value="">2</option>
@@ -380,10 +450,6 @@
 	</div> <!-- end wrapper -->
 
 
-	<script type="text/javascript" src="./jquery-1.9.1.js.download"></script>
-	<script type="text/javascript" src="./responsiveslides.min.js.download"></script>
-	<script type="text/javascript" src="./simpleMobileMenu.js.download"></script>
-	<script type="text/javascript" src="./bootstrap-datepicker.js.download"></script>
-	<script type="text/javascript" src="./common.js.download"></script>
+
 
 <div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">June 2017</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day disabled old">28</td><td class="day disabled old">29</td><td class="day disabled old">30</td><td class="day disabled old">31</td><td class="day disabled">1</td><td class="day disabled">2</td><td class="day disabled">3</td></tr><tr><td class="day disabled">4</td><td class="day disabled">5</td><td class="day disabled">6</td><td class="day disabled">7</td><td class="day disabled">8</td><td class="day disabled">9</td><td class="day disabled">10</td></tr><tr><td class="day disabled">11</td><td class="day disabled">12</td><td class="day disabled">13</td><td class="day disabled">14</td><td class="day disabled">15</td><td class="day disabled">16</td><td class="day disabled">17</td></tr><tr><td class="day disabled">18</td><td class="day disabled">19</td><td class="day disabled">20</td><td class="day disabled">21</td><td class="day disabled">22</td><td class="day disabled">23</td><td class="day disabled">24</td></tr><tr><td class="day disabled">25</td><td class="day  active">26</td><td class="day ">27</td><td class="day ">28</td><td class="day ">29</td><td class="day ">30</td><td class="day  new">1</td></tr><tr><td class="day  new">2</td><td class="day  new">3</td><td class="day  new">4</td><td class="day  new">5</td><td class="day  new">6</td><td class="day  new">7</td><td class="day  new">8</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2017</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month active">Jun</span><span class="month">Jul</span><span class="month">Aug</span><span class="month">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2010-2019</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2009</span><span class="year">2010</span><span class="year">2011</span><span class="year">2012</span><span class="year">2013</span><span class="year">2014</span><span class="year">2015</span><span class="year">2016</span><span class="year active">2017</span><span class="year">2018</span><span class="year">2019</span><span class="year old">2020</span></td></tr></tbody></table></div></div><div class="datepicker dropdown-menu"><div class="datepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">June 2017</th><th class="next">›</th></tr><tr><th class="dow">Su</th><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th></tr></thead><tbody><tr><td class="day disabled old">28</td><td class="day disabled old">29</td><td class="day disabled old">30</td><td class="day disabled old">31</td><td class="day disabled">1</td><td class="day disabled">2</td><td class="day disabled">3</td></tr><tr><td class="day disabled">4</td><td class="day disabled">5</td><td class="day disabled">6</td><td class="day disabled">7</td><td class="day disabled">8</td><td class="day disabled">9</td><td class="day disabled">10</td></tr><tr><td class="day disabled">11</td><td class="day disabled">12</td><td class="day disabled">13</td><td class="day disabled">14</td><td class="day disabled">15</td><td class="day disabled">16</td><td class="day disabled">17</td></tr><tr><td class="day disabled">18</td><td class="day disabled">19</td><td class="day disabled">20</td><td class="day disabled">21</td><td class="day disabled">22</td><td class="day disabled">23</td><td class="day disabled">24</td></tr><tr><td class="day disabled">25</td><td class="day  active">26</td><td class="day ">27</td><td class="day ">28</td><td class="day ">29</td><td class="day ">30</td><td class="day  new">1</td></tr><tr><td class="day  new">2</td><td class="day  new">3</td><td class="day  new">4</td><td class="day  new">5</td><td class="day  new">6</td><td class="day  new">7</td><td class="day  new">8</td></tr></tbody></table></div><div class="datepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2017</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month active">Jun</span><span class="month">Jul</span><span class="month">Aug</span><span class="month">Sep</span><span class="month">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody></table></div><div class="datepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev">‹</th><th colspan="5" class="switch">2010-2019</th><th class="next">›</th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2009</span><span class="year">2010</span><span class="year">2011</span><span class="year">2012</span><span class="year">2013</span><span class="year">2014</span><span class="year">2015</span><span class="year">2016</span><span class="year active">2017</span><span class="year">2018</span><span class="year">2019</span><span class="year old">2020</span></td></tr></tbody></table></div></div></body></html>

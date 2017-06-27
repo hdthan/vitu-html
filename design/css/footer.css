@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'utm_alexander';
+    src: url('../fonts/utm_alexander.otf');
+    src: url('../fonts/utm_alexander.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*default css*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, img, strong, dl, dt, dd, ul, li, fieldset, form, label{
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+} :focus {outline: 0; }
+
+#footer{background: url(../images/front/bg_footer.png) no-repeat center; background-size: cover; padding: 50px 0 30px;}
+#footer h1{font: 700 18px/20px 'Montserrat', sans-serif; color: #63a5cf; text-transform: uppercase; margin-bottom: 20px;}
+#footer p{margin-bottom: 20px; font: 400 14px/20px 'Roboto', sans-serif; color: #63a5cf;}
+#footer p span{display: block; margin-bottom: 5px;}
+#footer a{color: #63a5cf;}
