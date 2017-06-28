@@ -1,10 +1,4 @@
-@font-face {
-    font-family: 'utm_alexander';
-    src: url('../fonts/utm_alexander.otf');
-    src: url('../fonts/utm_alexander.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 /*default css*/
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, img, strong, dl, dt, dd, ul, li, fieldset, form, label{
     border: 0;
@@ -18,21 +12,21 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, im
 #header{background: #009cff; font: 400 13px/20px 'Roboto', sans-serif; color: #fff;}
 .header-top{border-bottom: 1px solid #5dc0ff; padding: 12px 0; background: #009cff; position: relative; z-index: 2;}
 .header-top p span{display: inline-block; margin-right: 30px;}
-/*.header-top p span:before{display: inline-block; content: ''; height: 12px; width: 11px; background: url(../images/front/sprite.png) no-repeat; margin-right: 10px;}*/
+/*.header-top p span:before{display: inline-block; content: ''; height: 12px; width: 11px; background: url(../images/front/icons.png) no-repeat; margin-right: 10px;}*/
 /*.header-top p span.icon-adr:before{background-position: 0 0;}*/
 /*.header-top p span.icon-phone:before{background-position: -12px 0;}*/
 
 /*.header-top ul.social{margin: 0 -15px;}*/
 /*.header-top ul.social li{float: left; padding: 3px 15px 0;}*/
-/*.header-top ul.social li a{display: block; height: 13px; text-indent: -9999px; background: url(../images/front/sprite.png) no-repeat;}*/
+/*.header-top ul.social li a{display: block; height: 13px; text-indent: -9999px; background: url(../images/front/icons.png) no-repeat;}*/
 /*.header-top ul.social li a.icon_f{background-position: 0 -15px; width: 7px;}*/
 /*.header-top ul.social li a.icon_t{background-position: -14px -15px; width: 12px;}*/
 /*.header-top ul.social li a.icon_p{background-position: -33px -15px; width: 10px;}*/
 /*.header-top ul.social li a.icon_g{background-position: -50px -15px; width: 13px;}*/
 
 /*.header-bot{}*/
+.logo{max-width: 150px;}
 .logo a{display: inline-block; margin: 15px 0 15px;}
-
 
 .block-menu{position: relative;}
 .block-menu ul{}
@@ -41,15 +35,12 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, im
 .block-menu ul li a:before{content: ''; display: block; width: 20px; height: 10px; position: absolute; top: -10px; left: 50%; margin-left: -10px; transition: top .3s linear;}
 .block-menu ul li:hover a:before,
 /*.block-menu ul li.active a:before{ top: 0;  background: red no-repeat -28px -1px;}*/
-
 .block-menu ul li ul{visibility: hidden; width: 200px; background: #5DC0FF; padding: 5px 0; position: absolute; left: 0px; top: -10%; z-index: 10;text-align: left; transition: visibility, top .5s linear; border-radius: 0 0 4px 4px;}
 .block-menu ul li ul li{display: block;float: none;}
 .block-menu ul li:hover ul li a{padding: 5px 15px; color: #fff; border: none;}
 .block-menu ul li:hover ul li:hover a{background: #009cff;}
 .block-menu ul li ul li a:before{display: none;}
 .block-menu ul li:hover ul{ visibility: visible; top: 100% ;}
-
-.logo{max-width: 150px;}
 
 .sign-up {float: right;}
 .sign-up a{color: white !important; }
@@ -62,7 +53,6 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, im
 .navbar {margin-bottom: 0px !important;}
 .navbar-collapse{padding: 0px; border-top: none}
 
-.float-right-menu{}
 /*==========================================================================*/
 
 @-moz-document url-prefix() {
@@ -91,10 +81,6 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, im
     .footer-top .block-menu,
     .block-menu ul li:hover ul li a{padding: 0;}
 
-    .block-search{position: relative; bottom: auto; left: auto; margin-top: 25px;}
-    .search-info{background: #009CFF; padding-bottom: 0;}
-    .block-search .search-info ul li{width: 33.33%; margin-bottom: 20px;}
-    .block-search .search-info ul li button{width: 100%;}
 
     .sign-up-2nd {display: none}
     .navbar-default{background: #009cff; border: none;}
@@ -126,9 +112,6 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, im
 
 }
 @media (max-width: 630px){
-    .block-search .search-info ul li:last-child,
-    .block-search .search-info ul li.location_{width: 100%;}
-    .block-search .search-info ul li{width: 50%;}
     .tab_detail .txt-info{padding: 15px 10px;}
     .sign-up {display: none}
     .sign-up-2nd {display: block}
@@ -145,7 +128,6 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, im
 }
 @media (max-width: 420px){
     .logo{max-width: 150px;}
-    a.smobitrigger{top: 20px;}
     .table_cell h5{font: 700 14px/20px 'Montserrat', sans-serif;}
     .block-tour ul.list_tab li a{font: 500 11px/20px 'Montserrat', sans-serif;}
     .block-news ul li,
@@ -154,5 +136,6 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, im
 }
 
 @media (max-width: 340px){
-    .address-top{display: none;}
+    .header-top{display: none;}
+
 }

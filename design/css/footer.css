@@ -1,10 +1,4 @@
-@font-face {
-    font-family: 'utm_alexander';
-    src: url('../fonts/utm_alexander.otf');
-    src: url('../fonts/utm_alexander.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 /*default css*/
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, img, strong, dl, dt, dd, ul, li, fieldset, form, label{
     border: 0;

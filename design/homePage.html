@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- saved from url=(0045)http://thietkewebdanang.com/demo/DL20151209/# -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Life Travel</title>
+	<title>VITU</title>
 	
 	<meta name="description" content="mô tả website">
 	<meta name="keywords" content="những từ khóa của website bạn">
@@ -17,7 +17,7 @@
 	<![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link rel="icon" href="http://thietkewebdanang.com/demo/DL20151209/images/front/favicon.png" type="image/x-icon">
+	<link rel="icon" href="images/fav.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/datepicker.css">
@@ -34,8 +34,8 @@
                         <span class="address-top fa fa-map-marker">&nbsp; Số 50 Hàm Nghi, Tp Đà Nẵng</span>&nbsp;&nbsp;&nbsp;&nbsp;
                         <span class="address-top fa fa-volume-control-phone" >&nbsp; 1900 599 857</span>
                     <div class="sign-up" >
-                        <a class="" href="http://thietkewebdanang.com/demo/DL20151209/#">Đăng ký</a>&nbsp;&nbsp;
-                        <a class="" href="http://thietkewebdanang.com/demo/DL20151209/#">Đăng nhập</a>
+                        <a class="" href="">Đăng ký</a>&nbsp;&nbsp;
+                        <a class="" href="">Đăng nhập</a>
                     </div>
 				</div> <!-- end header-top -->
 
@@ -57,10 +57,10 @@
                             <div class="pull-right block-menu navbar-collapse collapse" id="menu-top-homepage">
                                     <ul class="float-right-menu">
                                         <li class="float-right-menu sign-up-2nd">
-                                            <a  class="float-right-menu" href="http://thietkewebdanang.com/demo/DL20151209/#">Đăng ký</a>
+                                            <a  class="float-right-menu" href="">Đăng ký</a>
                                         </li>
                                         <li class="float-right-menu sign-up-2nd">
-                                            <a  class="float-right-menu" href="http://thietkewebdanang.com/demo/DL20151209/#">Đăng nhập</a>
+                                            <a  class="float-right-menu" href="">Đăng nhập</a>
                                         </li>
                                         <li class="join-btn float-right-menu" type="none"><select class="form-control float-right-menu" id="sel1" style="width: 150px">
                                             <option>Chọn tỉnh thành</option>
@@ -177,12 +177,12 @@
 				<div class="block-search">
 					<div class="container">
 						<div class="search-info">
-							<ul>
-								<li type="none" class="location_">
+							<div class="row">
+								<div class="col-lg-3 col-md-6 col-sm-6 col-xs-5 search-input">
 									<input type="text" class="form-control" placeholder="Họ tên gia sư hoặc môn học..." >
-								</li>
-								<li type="none" class="date_">
-									<select class="form-control" id="sel2" >
+								</div>
+								<div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 search-input">
+									<select class="form-control" id="location2" >
 									<option>Chọn tỉnh thành</option>
 									<option>An Giang</option>
 									<option>Bà Rịa - Vũng Tàu</option>
@@ -247,10 +247,9 @@
 									<option>Hải Phòng</option>
 									<option>Hà Nội</option>
 									<option>TP HCM</option>
-								</select></li>
-
-								</li>
-								<li type="none" class="date_">
+								</select>
+								</div>
+								<div class="col-lg-1 col-md-3 col-sm-3 col-xs-3 search-input">
 									<label for="">
 										<select id="grade" class="form-control">
 											<option value="">Lớp</option>
@@ -260,8 +259,8 @@
 											<option value="">9</option>
 										</select>
 									</label>
-								</li>
-								<li type="none" class="select_">
+								</div>
+								<div class="col-lg-1 col-md-2 col-sm-2 col-xs-2 search-input">
 									<label for="">
 										<select id="" class="form-control">
 											<option value="">Môn học</option>
@@ -271,8 +270,8 @@
 											<option value="">Anh</option>
 										</select>
 									</label>
-								</li>
-								<li type="none" class="select_">
+								</div>
+								<div  class="col-lg-2 col-md-3 col-sm-3 col-xs-3 search-input">
 									<label for="">
 										<select  class="form-control">
 											<option value="">Trình độ gia sư</option>
@@ -281,8 +280,8 @@
 											<option value="">Trung bình</option>
 										</select>
 									</label>
-								</li>
-								<li type="none" class="select_">
+								</div>
+								<div  class="col-lg-1 col-md-3 col-sm-3 col-xs-3 search-input">
 									<label for="">
 										<select  class="form-control">
 											<option value="">Giới tính</option>
@@ -290,198 +289,242 @@
 											<option value="">Nữ</option>
 										</select>
 									</label>
-								</li>
-								<li type="none" ><button id="find">Tìm kiếm ngay</button></li>
-							</ul>
+								</div>
+                                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4 search-input search-input-button">
+                                    <button id="find">Tìm kiếm ngay</button>
+                                </div>
+							</div>
+
 							<div class="clear"></div>
 						</div> <!-- end search-info -->
 					</div>
 				</div> <!-- end block-search -->
 			</div> <!-- end slider -->
+            <div class="row info-vitu">
+                <div class="col-sm-2 col-xs-0"></div>
+                <div class="col-sm-4 col-xs-6 info-icon">
+                    <i class="fa fa-graduation-cap fa-4x " aria-hidden="true"></i>
+                </div>
+                <div class="col-sm-4 col-xs-6 info-icon">
+                    <i class="fa fa-user-plus fa-4x " aria-hidden="true"></i>
+                </div>
+                <div class="col-sm-2 col-xs-0"></div>
+            </div>
+            <div class="row info-vitu">
+                <div class="col-sm-2 col-xs-0"></div>
+                <div class="col-sm-4 col-xs-6 info-icon">
+                    <h5>6215 GIA SƯ VITU</h5>
+                </div>
+                <div class="col-sm-4 col-xs-6 info-icon">
+                    <h5>4532 YÊU CẦU MỞ LỚP</h5>
+                </div>
+                <div class="col-sm-2 col-xs-0"></div>
+            </div>
+            <div class="browser_width grpelem" id="u4813-bw">
+                <div id="u4813"><!-- column -->
+                    <div class="clearfix" id="u4813_align_to_page">
+                        <div class="clearfix colelem" id="u4811-4"><!-- content -->
+                            <p>LỰA CHỌN GIA SƯ VITU CÓ GÌ KHÁC BIỆT?</p>
+                        </div>
 
+                        <div class="clearfix colelem" id="u4812-12"><!-- content -->
+                            <p>Lorem ipsum dolor sit amet, lorem officiis ne cum,</p>
+                            <p>te has nullam salutandi,</p>
+                            <p>h ei ignota accumsan intellegebat has. Ne minim zril integre vis. </p>
+                            <p>Dicant dissentiet theophrastus ut his, soleat tempor ne qui. </p>
+                            <p>Nostro saperet no vel, mei ea primis nusquam.</p>
+                            <p>Cu libris ceteros accommodare his, percipit voluptaria sed ut has.</p>
+                            <p>Dicant dissentiet theophrastus ut his, soleat tempor ne qui. </p>
+                            <p>Nostro saperet no vel, mei ea primis nusquam.</p>
+                            <p>Cu libris ceteros accommodare his, percipit voluptaria sed ut has.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="bg-vitu-1"></div>
 			<div class="block-tour">
-				<div class="container">
-					<ul class="list_tab">
-						<li><a href="http://thietkewebdanang.com/demo/DL20151209/#tour_1" class="active">Tour trong nước</a></li>
-						<li><a href="http://thietkewebdanang.com/demo/DL20151209/#tour_2">Tour ngoài nước</a></li>
-					</ul> <!-- end list_tab -->
+				<!--<div class="container">-->
+					<!--<ul class="list_tab">-->
+						<!--<li><a href="tour_1" class="active">Tour trong nước</a></li>-->
+						<!--<li><a href="tour_2">Tour ngoài nước</a></li>-->
+					<!--</ul> &lt;!&ndash; end list_tab &ndash;&gt;-->
 
-					<div class="tab_content">
-						<div class="tab_detail" id="tour_1" style="display: block;">
-							<ul class="row list_tour">
-								<li class="col-md-4 col-sm-6 col-xs-6">
-									<div class="detail">
-										<a href="http://thietkewebdanang.com/demo/DL20151209/#" class="img"><img src="images/tour-1.jpg" alt=""></a>
-										<div class="txt-info">
-											<h3><a href="http://thietkewebdanang.com/demo/DL20151209/#">Núi rừng tây nguyên</a></h3>
-											<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>
-										</div> <!-- end txt-info -->
-										<ul class="row text-center">
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="date">7 ngày 6 đêm</span>
-											</li>
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="price">2.500.000đ/1</span>
-											</li>
-										</ul>
-									</div>
-								</li>
-								<li class="col-md-4 col-sm-6 col-xs-6">
-									<div class="detail">
-										<a href="http://thietkewebdanang.com/demo/DL20151209/#" class="img"><img src="images/tour-2.jpg" alt=""></a>
-										<div class="txt-info">
-											<h3><a href="http://thietkewebdanang.com/demo/DL20151209/#">Núi rừng tây nguyên</a></h3>
-											<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>
-										</div> <!-- end txt-info -->
-										<ul class="row text-center">
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="date">7 ngày 6 đêm</span>
-											</li>
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="price">2.500.000đ/1</span>
-											</li>
-										</ul>
-									</div>
-								</li>
-								<li class="col-md-4 col-sm-6 col-xs-6">
-									<div class="detail">
-										<a href="http://thietkewebdanang.com/demo/DL20151209/#" class="img"><img src="images/tour-3.jpg" alt=""></a>
-										<div class="txt-info">
-											<h3><a href="http://thietkewebdanang.com/demo/DL20151209/#">Núi rừng tây nguyên</a></h3>
-											<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>
-										</div> <!-- end txt-info -->
-										<ul class="row text-center">
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="date">7 ngày 6 đêm</span>
-											</li>
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="price">2.500.000đ/1</span>
-											</li>
-										</ul>
-									</div>
-								</li>
-								<li class="col-md-4 col-sm-6 col-xs-6">
-									<div class="detail">
-										<a href="http://thietkewebdanang.com/demo/DL20151209/#" class="img"><img src="images/tour-4.jpg" alt=""></a>
-										<div class="txt-info">
-											<h3><a href="http://thietkewebdanang.com/demo/DL20151209/#">Núi rừng tây nguyên</a></h3>
-											<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>
-										</div> <!-- end txt-info -->
-										<ul class="row text-center">
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="date">7 ngày 6 đêm</span>
-											</li>
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="price">2.500.000đ/1</span>
-											</li>
-										</ul>
-									</div>
-								</li>
-								<li class="col-md-4 col-sm-6 col-xs-6">
-									<div class="detail">
-										<a href="http://thietkewebdanang.com/demo/DL20151209/#" class="img"><img src="images/tour-5.jpg" alt=""></a>
-										<div class="txt-info">
-											<h3><a href="http://thietkewebdanang.com/demo/DL20151209/#">Núi rừng tây nguyên</a></h3>
-											<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>
-										</div> <!-- end txt-info -->
-										<ul class="row text-center">
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="date">7 ngày 6 đêm</span>
-											</li>
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="price">2.500.000đ/1</span>
-											</li>
-										</ul>
-									</div>
-								</li>
-								<li class="col-md-4 col-sm-6 col-xs-6">
-									<div class="detail">
-										<a href="http://thietkewebdanang.com/demo/DL20151209/#" class="img"><img src="images/tour-6.jpg" alt=""></a>
-										<div class="txt-info">
-											<h3><a href="http://thietkewebdanang.com/demo/DL20151209/#">Núi rừng tây nguyên</a></h3>
-											<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>
-										</div> <!-- end txt-info -->
-										<ul class="row text-center">
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="date">7 ngày 6 đêm</span>
-											</li>
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="price">2.500.000đ/1</span>
-											</li>
-										</ul>
-									</div>
-								</li>
-							</ul>
+					<!--<div class="tab_content">-->
+						<!--<div class="tab_detail" id="tour_1" style="display: block;">-->
+							<!--<ul class="row list_tour">-->
+								<!--<li class="col-md-4 col-sm-6 col-xs-6">-->
+									<!--<div class="detail">-->
+										<!--<a href="" class="img"><img src="images/tour-1.jpg" alt=""></a>-->
+										<!--<div class="txt-info">-->
+											<!--<h3><a href="">Núi rừng tây nguyên</a></h3>-->
+											<!--<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>-->
+										<!--</div> &lt;!&ndash; end txt-info &ndash;&gt;-->
+										<!--<ul class="row text-center">-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="date">7 ngày 6 đêm</span>-->
+											<!--</li>-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="price">2.500.000đ/1</span>-->
+											<!--</li>-->
+										<!--</ul>-->
+									<!--</div>-->
+								<!--</li>-->
+								<!--<li class="col-md-4 col-sm-6 col-xs-6">-->
+									<!--<div class="detail">-->
+										<!--<a href="" class="img"><img src="images/tour-2.jpg" alt=""></a>-->
+										<!--<div class="txt-info">-->
+											<!--<h3><a href="">Núi rừng tây nguyên</a></h3>-->
+											<!--<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>-->
+										<!--</div> &lt;!&ndash; end txt-info &ndash;&gt;-->
+										<!--<ul class="row text-center">-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="date">7 ngày 6 đêm</span>-->
+											<!--</li>-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="price">2.500.000đ/1</span>-->
+											<!--</li>-->
+										<!--</ul>-->
+									<!--</div>-->
+								<!--</li>-->
+								<!--<li class="col-md-4 col-sm-6 col-xs-6">-->
+									<!--<div class="detail">-->
+										<!--<a href="" class="img"><img src="images/tour-3.jpg" alt=""></a>-->
+										<!--<div class="txt-info">-->
+											<!--<h3><a href="">Núi rừng tây nguyên</a></h3>-->
+											<!--<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>-->
+										<!--</div> &lt;!&ndash; end txt-info &ndash;&gt;-->
+										<!--<ul class="row text-center">-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="date">7 ngày 6 đêm</span>-->
+											<!--</li>-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="price">2.500.000đ/1</span>-->
+											<!--</li>-->
+										<!--</ul>-->
+									<!--</div>-->
+								<!--</li>-->
+								<!--<li class="col-md-4 col-sm-6 col-xs-6">-->
+									<!--<div class="detail">-->
+										<!--<a href="" class="img"><img src="images/tour-4.jpg" alt=""></a>-->
+										<!--<div class="txt-info">-->
+											<!--<h3><a href="">Núi rừng tây nguyên</a></h3>-->
+											<!--<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>-->
+										<!--</div> &lt;!&ndash; end txt-info &ndash;&gt;-->
+										<!--<ul class="row text-center">-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="date">7 ngày 6 đêm</span>-->
+											<!--</li>-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="price">2.500.000đ/1</span>-->
+											<!--</li>-->
+										<!--</ul>-->
+									<!--</div>-->
+								<!--</li>-->
+								<!--<li class="col-md-4 col-sm-6 col-xs-6">-->
+									<!--<div class="detail">-->
+										<!--<a href="" class="img"><img src="images/tour-5.jpg" alt=""></a>-->
+										<!--<div class="txt-info">-->
+											<!--<h3><a href="">Núi rừng tây nguyên</a></h3>-->
+											<!--<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>-->
+										<!--</div> &lt;!&ndash; end txt-info &ndash;&gt;-->
+										<!--<ul class="row text-center">-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="date">7 ngày 6 đêm</span>-->
+											<!--</li>-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="price">2.500.000đ/1</span>-->
+											<!--</li>-->
+										<!--</ul>-->
+									<!--</div>-->
+								<!--</li>-->
+								<!--<li class="col-md-4 col-sm-6 col-xs-6">-->
+									<!--<div class="detail">-->
+										<!--<a href="" class="img"><img src="images/tour-6.jpg" alt=""></a>-->
+										<!--<div class="txt-info">-->
+											<!--<h3><a href="">Núi rừng tây nguyên</a></h3>-->
+											<!--<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>-->
+										<!--</div> &lt;!&ndash; end txt-info &ndash;&gt;-->
+										<!--<ul class="row text-center">-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="date">7 ngày 6 đêm</span>-->
+											<!--</li>-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="price">2.500.000đ/1</span>-->
+											<!--</li>-->
+										<!--</ul>-->
+									<!--</div>-->
+								<!--</li>-->
+							<!--</ul>-->
 
-							<div class="block-pag">
-								<ul>
-									<li class="active"><a href="http://thietkewebdanang.com/demo/DL20151209/#">1</a></li>
-									<li><a href="http://thietkewebdanang.com/demo/DL20151209/#">2</a></li>
-								</ul>
-							</div> <!-- end block-pag -->
-						</div> <!-- end tab_detail -->
+							<!--<div class="block-pag">-->
+								<!--<ul>-->
+									<!--<li class="active"><a href="">1</a></li>-->
+									<!--<li><a href="">2</a></li>-->
+								<!--</ul>-->
+							<!--</div> &lt;!&ndash; end block-pag &ndash;&gt;-->
+						<!--</div> &lt;!&ndash; end tab_detail &ndash;&gt;-->
 
-						<div class="tab_detail" id="tour_2" style="display: none;">
-							<ul class="row list_tour">
-								<li class="col-md-4 col-sm-6 col-xs-6">
-									<div class="detail">
-										<a href="http://thietkewebdanang.com/demo/DL20151209/#" class="img"><img src="images/tour-1.jpg" alt=""></a>
-										<div class="txt-info">
-											<h3><a href="http://thietkewebdanang.com/demo/DL20151209/#">Núi rừng tây nguyên</a></h3>
-											<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>
-										</div> <!-- end txt-info -->
-										<ul class="row text-center">
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="date">7 ngày 6 đêm</span>
-											</li>
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="price">2.500.000đ/1</span>
-											</li>
-										</ul>
-									</div>
-								</li>
-								<li class="col-md-4 col-sm-6 col-xs-6">
-									<div class="detail">
-										<a href="http://thietkewebdanang.com/demo/DL20151209/#" class="img"><img src="images/tour-2.jpg" alt=""></a>
-										<div class="txt-info">
-											<h3><a href="http://thietkewebdanang.com/demo/DL20151209/#">Núi rừng tây nguyên</a></h3>
-											<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>
-										</div> <!-- end txt-info -->
-										<ul class="row text-center">
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="date">7 ngày 6 đêm</span>
-											</li>
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="price">2.500.000đ/1</span>
-											</li>
-										</ul>
-									</div>
-								</li>
-								<li class="col-md-4 col-sm-6 col-xs-6">
-									<div class="detail">
-										<a href="http://thietkewebdanang.com/demo/DL20151209/#" class="img"><img src="images/tour-3.jpg" alt=""></a>
-										<div class="txt-info">
-											<h3><a href="http://thietkewebdanang.com/demo/DL20151209/#">Núi rừng tây nguyên</a></h3>
-											<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>
-										</div> <!-- end txt-info -->
-										<ul class="row text-center">
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="date">7 ngày 6 đêm</span>
-											</li>
-											<li class="col-md-6 col-sm-6 col-xs-6">
-												<span class="price">2.500.000đ/1</span>
-											</li>
-										</ul>
-									</div>
-								</li>
-							</ul>
-						</div> <!-- end tab_detail -->
-					</div> <!-- end tab_content -->
- 				</div>
+						<!--<div class="tab_detail" id="tour_2" style="display: none;">-->
+							<!--<ul class="row list_tour">-->
+								<!--<li class="col-md-4 col-sm-6 col-xs-6">-->
+									<!--<div class="detail">-->
+										<!--<a href="" class="img"><img src="images/tour-1.jpg" alt=""></a>-->
+										<!--<div class="txt-info">-->
+											<!--<h3><a href="">Núi rừng tây nguyên</a></h3>-->
+											<!--<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>-->
+										<!--</div> &lt;!&ndash; end txt-info &ndash;&gt;-->
+										<!--<ul class="row text-center">-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="date">7 ngày 6 đêm</span>-->
+											<!--</li>-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="price">2.500.000đ/1</span>-->
+											<!--</li>-->
+										<!--</ul>-->
+									<!--</div>-->
+								<!--</li>-->
+								<!--<li class="col-md-4 col-sm-6 col-xs-6">-->
+									<!--<div class="detail">-->
+										<!--<a href="" class="img"><img src="images/tour-2.jpg" alt=""></a>-->
+										<!--<div class="txt-info">-->
+											<!--<h3><a href="">Núi rừng tây nguyên</a></h3>-->
+											<!--<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>-->
+										<!--</div> &lt;!&ndash; end txt-info &ndash;&gt;-->
+										<!--<ul class="row text-center">-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="date">7 ngày 6 đêm</span>-->
+											<!--</li>-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="price">2.500.000đ/1</span>-->
+											<!--</li>-->
+										<!--</ul>-->
+									<!--</div>-->
+								<!--</li>-->
+								<!--<li class="col-md-4 col-sm-6 col-xs-6">-->
+									<!--<div class="detail">-->
+										<!--<a href="" class="img"><img src="images/tour-3.jpg" alt=""></a>-->
+										<!--<div class="txt-info">-->
+											<!--<h3><a href="">Núi rừng tây nguyên</a></h3>-->
+											<!--<p>Aenean nec ultrices arcu. Aenean nec lorem vehicula, molestie eros et, consectetur enim. Suspendisse potenti.</p>-->
+										<!--</div> &lt;!&ndash; end txt-info &ndash;&gt;-->
+										<!--<ul class="row text-center">-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="date">7 ngày 6 đêm</span>-->
+											<!--</li>-->
+											<!--<li class="col-md-6 col-sm-6 col-xs-6">-->
+												<!--<span class="price">2.500.000đ/1</span>-->
+											<!--</li>-->
+										<!--</ul>-->
+									<!--</div>-->
+								<!--</li>-->
+							<!--</ul>-->
+						<!--</div> &lt;!&ndash; end tab_detail &ndash;&gt;-->
+					<!--</div> &lt;!&ndash; end tab_content &ndash;&gt;-->
+ 				<!--</div>-->
 			</div> <!-- end block-tour -->
 
 			<div class="banner">
-				<a href="http://thietkewebdanang.com/demo/DL20151209/#"><img src="images/banner.jpg" alt=""></a>
+				<a href=""><img src="images/banner.jpg" alt=""></a>
 			</div> <!-- end banner -->
 
 			<div class="block-news">
@@ -489,26 +532,26 @@
 					<h2>Tin tức du lịch</h2>
 					<ul class="row">
 						<li class="col-md-3 col-sm-4 col-xs-6">
-							<a href="http://thietkewebdanang.com/demo/DL20151209/#" class="img"><img src="images/news-1.jpg" alt=""></a>
-							<h3><a href="http://thietkewebdanang.com/demo/DL20151209/#">Proin a urna est. Cras sem nibh, mollis et libero ac, condimentum.</a></h3>
+							<a href="" class="img"><img src="images/news-1.jpg" alt=""></a>
+							<h3><a href="">Proin a urna est. Cras sem nibh, mollis et libero ac, condimentum.</a></h3>
 							<p>Vivamus sollicitudin erat et urna feugiat iaculis quis pellentesque erat. Nam hendrerit diam gravida tortor facilisis congue.</p>
 							<span>19 - 11 - 2015</span>
 						</li>
 						<li class="col-md-3 col-sm-4 col-xs-6">
-							<a href="http://thietkewebdanang.com/demo/DL20151209/#" class="img"><img src="images/news-2.jpg" alt=""></a>
-							<h3><a href="http://thietkewebdanang.com/demo/DL20151209/#">Proin a urna est. Cras sem nibh, mollis et libero ac, condimentum.</a></h3>
+							<a href="" class="img"><img src="images/news-2.jpg" alt=""></a>
+							<h3><a href="">Proin a urna est. Cras sem nibh, mollis et libero ac, condimentum.</a></h3>
 							<p>Vivamus sollicitudin erat et urna feugiat iaculis quis pellentesque erat. Nam hendrerit diam gravida tortor facilisis congue.</p>
 							<span>19 - 11 - 2015</span>
 						</li>
 						<li class="col-md-3 col-sm-4 col-xs-6">
-							<a href="http://thietkewebdanang.com/demo/DL20151209/#" class="img"><img src="images/news-3.jpg" alt=""></a>
-							<h3><a href="http://thietkewebdanang.com/demo/DL20151209/#">Proin a urna est. Cras sem nibh, mollis et libero ac, condimentum.</a></h3>
+							<a href="" class="img"><img src="images/news-3.jpg" alt=""></a>
+							<h3><a href="">Proin a urna est. Cras sem nibh, mollis et libero ac, condimentum.</a></h3>
 							<p>Vivamus sollicitudin erat et urna feugiat iaculis quis pellentesque erat. Nam hendrerit diam gravida tortor facilisis congue.</p>
 							<span>19 - 11 - 2015</span>
 						</li>
 						<li class="col-md-3 col-sm-4 col-xs-6">
-							<a href="http://thietkewebdanang.com/demo/DL20151209/#" class="img"><img src="images/news-4.jpg" alt=""></a>
-							<h3><a href="http://thietkewebdanang.com/demo/DL20151209/#">Proin a urna est. Cras sem nibh, mollis et libero ac, condimentum.</a></h3>
+							<a href="" class="img"><img src="images/news-4.jpg" alt=""></a>
+							<h3><a href="">Proin a urna est. Cras sem nibh, mollis et libero ac, condimentum.</a></h3>
 							<p>Vivamus sollicitudin erat et urna feugiat iaculis quis pellentesque erat. Nam hendrerit diam gravida tortor facilisis congue.</p>
 							<span>19 - 11 - 2015</span>
 						</li>
@@ -527,7 +570,7 @@
 				</p>
 				<p>
 					<span>Bản quyền thuộc về Life Travel © 2015. Tất cả các quyền được bảo hộ.</span>
-					<span>Phát triển bởi <a href="http://thietkewebdanang.com/demo/DL20151209/#">thietkewebdanang.com</a></span>
+					<span>Phát triển bởi <a href="">thietkewebdanang.com</a></span>
 				</p>
 			</div>
 		</div> <!-- end footer -->
