@@ -63,16 +63,11 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, im
     .block-menu ul li a{padding:5px 10px;}
     .sign-up-2nd {display: none}
     .navbar-default{background: #009cff; border: none;}
-
-
 }
 @media (min-width: 1190px){
     .sign-up-2nd {display: none}
     .navbar-default{background: #009cff; border: none;}
-
 }
-
-
 @media (max-width: 768px){
     .logo a{margin: 10px 0;}
     .block-menu ul li a:before{display: none;}
@@ -80,7 +75,6 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, im
     .block-menu ul li:hover ul{top: 7px;}
     .footer-top .block-menu,
     .block-menu ul li:hover ul li a{padding: 0;}
-
 
     .sign-up-2nd {display: none}
     .navbar-default{background: #009cff; border: none;}
@@ -95,31 +89,19 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, im
     .navbar-default .navbar-toggle .icon-bar{background-color: #4cc721  !important}
 }
 @media (max-width: 750px){
-    .table_cell .container{margin-top: 0;}
-    .table_cell h5{font: 700 20px/22px 'Montserrat', sans-serif;}
-    .block-news ul li a.img{display: block;}
-    .block-news ul li a.img img{width: 100%;}
-    .block-tour{margin: 30px 0;}
-    .banner{margin-bottom: 30px;}
-    .block-news{margin-bottom: 10px;}
     .sign-up-2nd {display: none; width: 385px; padding: 0px !important}
-
 }
-
 @media (max-width: 680px){
-    #footer{background: url(../images/front/bg_footer.png) no-repeat 64% center; background-size: cover;}
+    #footer{background: url(../images/bg2.jpg) no-repeat 64% center; background-size: cover;}
     .sign-up-2nd {display: none}
 
 }
 @media (max-width: 630px){
-    .tab_detail .txt-info{padding: 15px 10px;}
     .sign-up {display: none}
     .sign-up-2nd {display: block}
 }
 @media (max-width: 500px){
     .header-top p.pull-left{display: none;}
-    .tab_detail ul.text-center li:first-child{border-right: 1px solid #e4e4e4;}
-    .tab_detail ul.text-center li,
     .header-top .pull-right{width: 100%;}
     .header-top ul.social{width: 165px; margin: auto;}
     .join-btn{width: 260px;}
@@ -128,11 +110,6 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, im
 }
 @media (max-width: 420px){
     .logo{max-width: 150px;}
-    .table_cell h5{font: 700 14px/20px 'Montserrat', sans-serif;}
-    .block-tour ul.list_tab li a{font: 500 11px/20px 'Montserrat', sans-serif;}
-    .block-news ul li,
-    .tab_detail ul .col-md-4{width: 100%;}
-    .tab_detail p{height: auto;}
 }
 
 @media (max-width: 340px){
