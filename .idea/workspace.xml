@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26698859-35e6-490b-bd4e-8f2b3da48f9b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/images/04-u2078-fr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/images/bg1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/images/bg2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/images/fav.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/images/icons.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/css/footer.css" afterPath="$PROJECT_DIR$/design/css/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/css/header.css" afterPath="$PROJECT_DIR$/design/css/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/css/homePage.css" afterPath="$PROJECT_DIR$/design/css/homePage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/homePage.html" afterPath="$PROJECT_DIR$/design/homePage.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -752,7 +743,7 @@
       <updated>1498448357831</updated>
       <workItem from="1498448359211" duration="27338000" />
       <workItem from="1498545760554" duration="29205000" />
-      <workItem from="1498640423494" duration="1418000" />
+      <workItem from="1498640423494" duration="1459000" />
     </task>
     <task id="LOCAL-00001" summary="move to new folder">
       <created>1498449208230</created>
@@ -796,11 +787,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498560105038</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Done First info part + resp">
+      <created>1498641879379</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1498641879379</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57961000" />
+    <option name="totallyTimeSpent" value="58002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -848,7 +846,8 @@
     <MESSAGE value="change css default" />
     <MESSAGE value="done header" />
     <MESSAGE value="done header + responsive&#10;Done search" />
-    <option name="LAST_COMMIT_MESSAGE" value="done header + responsive&#10;Done search" />
+    <MESSAGE value="Done First info part + resp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done First info part + resp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
