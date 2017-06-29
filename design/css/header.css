@@ -44,10 +44,10 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, im
 
 .sign-up {float: right;}
 .sign-up a{color: white !important; }
-.sign-up a:hover{color: #9bff33 !important;}
+.sign-up a:hover{color: #ff9600 !important;}
 .sign-up-2nd {float: none; padding: 7px 20px;border: none;margin: 0;display: block;text-align: left;}
 .sign-up-2nd a {font-size: 14px; padding: 0;border: none; color: #ffffff !important;text-transform: capitalize; background: transparent; display: block;}
-.sign-up-2nd a:hover{color: #00ff27 !important}
+.sign-up-2nd a:hover{color: #ff9600 !important}
 
 .join-btn {padding-top: 25px; padding-left: 15px;}
 .navbar {margin-bottom: 0px !important;}
@@ -86,7 +86,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, im
     .float-right-menu{float: right !important;}
     .block-menu{position: relative; border-top: 1px solid white; }
 
-    .navbar-default .navbar-toggle .icon-bar{background-color: #4cc721  !important}
+    .navbar-default .navbar-toggle .icon-bar{background-color: #ff9600  !important}
 }
 @media (max-width: 750px){
     .sign-up-2nd {display: none; width: 385px; padding: 0px !important}
