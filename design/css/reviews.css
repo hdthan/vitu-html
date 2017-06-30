@@ -1,0 +1,21 @@
+#SECTION_1{ height: 100%; position: relative; z-index: 0; margin-top: 40px;
+    background: rgba(51, 115, 183, 0.71) none repeat scroll 0 0 / auto padding-box border-box; padding: 100px 0;  }
+#DIV_2{ height: 100%; left: 0; opacity: 0.07; position: absolute; right: 0; top: 0; width: 100%;
+    background: rgba(0, 0, 0, 0) url("../images/bg3.jpg") repeat fixed 50% 122px / cover padding-box border-box;  }
+#UL_6{   position: relative;}
+#LI_21{text-align: center;    width: 70%;     margin: 0 auto;}
+#P_23{    color: rgb(255, 255, 255);    font: normal normal 300 normal 24px / 42px Roboto, sans-serif;    margin: 0 0 16.8px;}
+#DIV_24{display: inline-block;height: 78px;position: relative;margin: 10px 0;}
+#DIV_24:after{    content: '';    height: 1px;    left: 84px;   position: absolute;    right: -105px;    top: 39px;
+    width: 91px; background: rgba(255, 255, 255, 0.5) none repeat scroll 0% 0% / auto padding-box border-box;  }
+#DIV_24:before{ content: ''; height: 1px; left: -105px; position: absolute; right: 84px; top: 39px; width: 91px;
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0% 0% / auto padding-box border-box;  }
+#IMG_25{ width: 70px; border-radius: 50% 50% 50% 50%;}
+#DIV_26:after, #DIV_26:before{ box-sizing: border-box; color: #FFFFFF; content: '-';  }
+#SPAN_27{ color: rgb(255, 255, 255); font: normal normal 300 normal 16px / 26.25px Roboto, sans-serif;}
+
+
+@media (max-width: 1024px){
+    #P_23{font: normal normal 300 normal 20px / 30px Roboto, sans-serif; }
+    #SECTION_1{padding: 50px; margin-top: 10px}
+}
