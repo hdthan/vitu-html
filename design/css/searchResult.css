@@ -49,9 +49,24 @@
 padding: 5px 0;
 color: #00a0ff}
 
-@media (max-width: 768px) {
+@media (max-width: 2000px) {
     .search-result{
-        width: 90%;
+        width: 80%;
+    }
+}
+@media (max-width: 1650px) {
+    .search-result{
+        width: 96%;
+    }
+}
+@media (max-width: 1200px) {
+    .search-result{
+        width: 70%;
     }
 }
 
+@media (max-width: 768px) {
+    .search-result{
+        width: 97%;
+    }
+}

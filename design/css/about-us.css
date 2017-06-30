@@ -1,0 +1,105 @@
+#wrapperA{
+    background: #e9ebee;
+    padding-bottom: 20px;
+}
+
+.search-title{
+    font: 400 25px/25px "Roboto", sans-serif;
+    color: #00a0ff;
+    padding: 20px 30px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.au-block{
+    padding: 10px;
+    width: 190px;
+    height: 365px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.blue_title {
+    color: #009DD9;
+}
+
+.info {
+    margin-bottom: 10px;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.aavn-firm {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.clr {
+    padding-top: 20px;
+}
+
+.icontextcontainer {
+    margin-bottom: 20px;
+}
+
+.iconalign {
+    width: 20%;
+    float: left;
+    margin-top: 5px;
+}
+
+.textalign {
+    width: 76%;
+    float: right;
+}
+
+.iconboder {
+    border-radius: 10px !important;
+    border: 1px solid #eee;
+}
+
+.featuredescription {
+    font-weight: bold;
+}
+
+.featurecontent {
+    padding-right: 10px;
+}
+
+.step-5 .icon-store {
+    display: inline-block;
+}
+
+
+
+.img-apps {
+    display: table !important;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.icon-store a, .appstore .inner a {
+    outline: none;
+}
+
+.clr {
+    padding-top: 20px;
+}
+
+.about-us-body {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: #f1f1f1;
+    padding: 40px 10px 60px 10px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+
+.about-us-content {
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 970px;
+    margin: 0 auto;
+}
+

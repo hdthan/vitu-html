@@ -22,11 +22,11 @@
 	<link rel="stylesheet" type="text/css" href="css/homePage.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
-	<link rel="stylesheet" type="text/css" href="css/searchResult.css">
+	<link rel="stylesheet" type="text/css" href="css/about-us.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
 </head>
 <body><div class="overally"></div>
-	<div id="wrapper">
+	<div id="wrapperA">
 		<div id="header">
 			<div class="container">
 				<div class="header-top">
@@ -139,298 +139,43 @@
 			</div>
 		</div> <!-- end header -->
 
-		<div id="content">
-			<div class="slider">
-				<div class="block-slider">
-					<ul class="rslides rslides1">
-						<li class="mySlides" style="display: block; float: none; position: absolute; opacity: 0; z-index: 1; transition: opacity 500ms ease-in-out;">
-							<img src="images/slider.jpg" alt="">
-							<div class="txt-info">
-								<div class="table_">
-									<div class="table_cell">
-										<div class="container">
-											<h5>KẾT NỐI CỘNG ĐỒNG GIA SƯ VỚI PHỤ HUYNH VÀ HỌC VIÊN</h5>
-											<h5><span>bằng VITU</span></h5>
-										</div>
-									</div>
-								</div>
-							</div> <!-- end txt-info -->
-						</li>
+       <div class="about-us-body">
 
-						<li class="mySlides" style="float: left; position: relative; opacity: 1; z-index: 2; display: list-item; transition: opacity 500ms ease-in-out;">
-							<img src="images/slider-2.jpg" alt="">
-							<div class="txt-info">
-								<div class="table_">
-									<div class="table_cell">
-										<div class="container">
-											<h5>KẾT NỐI CỘNG ĐỒNG GIA SƯ VỚI PHỤ HUYNH VÀ HỌC VIÊN</h5>
-											<h5><span>bằng VITU</span></h5>
-										</div>
-									</div>
-								</div>
-							</div> <!-- end txt-info -->
-						</li>
-					</ul>
-				</div> <!-- end block-slider -->
-				<!--<div style="text-align:center">-->
-					<!--<span class="dot"></span>-->
-					<!--<span class="dot"></span>-->
-				<!--</div>-->
-				<div class="block-search">
-					<div class="container">
-						<div class="search-info">
-							<div class="row">
-								<div class="col-lg-2 col-md-6 col-sm-6 col-xs-5 search-input">
-                                        <input type="text" id="search" class="form-control" placeholder="Họ tên gia sư hoặc môn học..." >
-								</div>
-								<div class="col-lg-2 col-md-3 col-sm-3 col-xs-4 search-input">
-                                    <label for="location2">
-                                        <select class="form-control" id="location2" >
-									<option>Chọn tỉnh thành</option>
-									<option>An Giang</option>
-									<option>Bà Rịa - Vũng Tàu</option>
-									<option>Bắc Giang</option>
-									<option>Bắc Kạn</option>
-									<option>Bạc Liêu</option>
-									<option>Bắc Ninh</option>
-									<option>Bến Tre</option>
-									<option>Bình Định</option>
-									<option>Bình Dương</option>
-									<option>Bình Phước</option>
-									<option>Bình Thuận</option>
-									<option>Cà Mau</option>
-									<option>Cao Bằng</option>
-									<option>Đắk Lắk</option>
-									<option>Đắk Nông</option>
-									<option>Điện Biên</option>
-									<option>Đồng Nai</option>
-									<option>Đồng Tháp</option>
-									<option>Gia Lai</option>
-									<option>Hà Giang</option>
-									<option>Hà Nam</option>
-									<option>Hà Tĩnh</option>
-									<option>Hải Dương</option>
-									<option>Hậu Giang</option>
-									<option>Hòa Bình</option>
-									<option>Hưng Yên</option>
-									<option>Khánh Hòa</option>
-									<option>Kiên Giang</option>
-									<option>Kon Tum</option>
-									<option>Lai Châu</option>
-									<option>Lâm Đồng</option>
-									<option>Lạng Sơn</option>
-									<option>Lào Cai</option>
-									<option>Long An</option>
-									<option>Nam Định</option>
-									<option>Nghệ An</option>
-									<option>Ninh Bình</option>
-									<option>Ninh Thuận</option>
-									<option>Phú Thọ</option>
-									<option>Quảng Bình</option>
-									<option>Quảng Nam</option>
-									<option>Quảng Ngãi</option>
-									<option>Quảng Ninh</option>
-									<option>Quảng Trị</option>
-									<option>Sóc Trăng</option>
-									<option>Sơn La</option>
-									<option>Tây Ninh</option>
-									<option>Thái Bình</option>
-									<option>Thái Nguyên</option>
-									<option>Thanh Hóa</option>
-									<option>Thừa Thiên Huế</option>
-									<option>Tiền Giang</option>
-									<option>Trà Vinh</option>
-									<option>Tuyên Quang</option>
-									<option>Vĩnh Long</option>
-									<option>Vĩnh Phúc</option>
-									<option>Yên Bái</option>
-									<option>Phú Yên</option>
-									<option>Cần Thơ</option>
-									<option>Đà Nẵng</option>
-									<option>Hải Phòng</option>
-									<option>Hà Nội</option>
-									<option>TP HCM</option>
-								</select>
-                                    </label>
-								</div>
-								<div class="col-lg-1 col-md-3 col-sm-3 col-xs-3 search-input">
-									<label for="grade">
-										<select id="grade" class="form-control">
-											<option value="">Lớp</option>
-											<option value="">12</option>
-											<option value="">11</option>
-											<option value="">10</option>
-											<option value="">9</option>
-										</select>
-									</label>
-								</div>
-								<div class="col-lg-1 col-md-2 col-sm-2 col-xs-2 search-input">
-									<label for="subject">
-										<select id="subject" class="form-control">
-											<option value="">Môn học</option>
-											<option value="">Toán</option>
-											<option value="">Lý</option>
-											<option value="">Hóa</option>
-											<option value="">Anh</option>
-										</select>
-									</label>
-								</div>
-								<div  class="col-lg-2 col-md-3 col-sm-3 col-xs-3 search-input">
-									<label for="level">
-										<select id="level" class="form-control">
-											<option value="">Trình độ gia sư</option>
-											<option value="">Giỏi</option>
-											<option value="">Khá</option>
-											<option value="">Trung bình</option>
-										</select>
-									</label>
-								</div>
-								<div  class="col-lg-1 col-md-3 col-sm-3 col-xs-3 search-input">
-									<label for="sex">
-										<select id="sex" class="form-control">
-											<option value="">Giới tính</option>
-											<option value="">Nam</option>
-											<option value="">Nữ</option>
-										</select>
-									</label>
-								</div>
-                                <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4 search-input search-input-button">
-                                    <button class="btn-find" id="find">Tìm kiếm ngay</button>
-                                </div>
-							</div>
+            <div class="about-us-content">
 
-							<div class="clear"></div>
-						</div> <!-- end search-info -->
-					</div>
-				</div> <!-- end block-search -->
-			</div> <!-- end slider -->
-            <div class="search-result">
-                <p class="search-title">All Search</p>
-                    <div class="row">
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-sx-4">
-                            <div class="search-result-block">
-                                <div class=" search-ava">
-                                    <img alt="Neil Atkin" class="imgAva" src="images/user2-160x160.jpg">
-                                </div>
-                                <div class=" search-resume">
-                                    <p class="teacher-name">Douglas Riches</p>
-                                    <p class="teacher-subject"><i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp;Info Technology</p>
-                                    <p class="teacher-class"><i class="fa fa-stack-overflow" aria-hidden="true"></i>&nbsp;&nbsp;12</p>
-                                    <p class="teacher-level"><i class="fa fa-superpowers" aria-hidden="true"></i>&nbsp;&nbsp;Technology Director</p>
-                                    <p class="teacher-exp"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;Klick Health</p>
-                                    <button class="btn-find">Chọn</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-sx-4">
-                            <div class="search-result-block">
-                                <div class=" search-ava">
-                                    <img alt="Neil Atkin" class="imgAva" src="images/user2-160x160.jpg">
-                                </div>
-                                <div class=" search-resume">
-                                    <p class="teacher-name">Douglas Riches</p>
-                                    <p class="teacher-subject"><i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp;Info Technology</p>
-                                    <p class="teacher-class"><i class="fa fa-stack-overflow" aria-hidden="true"></i>&nbsp;&nbsp;12</p>
-                                    <p class="teacher-level"><i class="fa fa-superpowers" aria-hidden="true"></i>&nbsp;&nbsp;Technology Director</p>
-                                    <p class="teacher-exp"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;Klick Health</p>
-                                    <button class="btn-find">Chọn</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-sx-4">
-                            <div class="search-result-block">
-                                <div class=" search-ava">
-                                    <img alt="Neil Atkin" class="imgAva" src="images/user2-160x160.jpg">
-                                </div>
-                                <div class=" search-resume">
-                                    <p class="teacher-name">Douglas Riches</p>
-                                    <p class="teacher-subject"><i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp;Info Technology</p>
-                                    <p class="teacher-class"><i class="fa fa-stack-overflow" aria-hidden="true"></i>&nbsp;&nbsp;12</p>
-                                    <p class="teacher-level"><i class="fa fa-superpowers" aria-hidden="true"></i>&nbsp;&nbsp;Technology Director</p>
-                                    <p class="teacher-exp"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;Klick Health</p>
-                                    <button class="btn-find">Chọn</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-sx-4">
-                            <div class="search-result-block">
-                                <div class=" search-ava">
-                                    <img alt="Neil Atkin" class="imgAva" src="images/user2-160x160.jpg">
-                                </div>
-                                <div class=" search-resume">
-                                    <p class="teacher-name">Douglas Riches</p>
-                                    <p class="teacher-subject"><i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp;Info Technology</p>
-                                    <p class="teacher-class"><i class="fa fa-stack-overflow" aria-hidden="true"></i>&nbsp;&nbsp;12</p>
-                                    <p class="teacher-level"><i class="fa fa-superpowers" aria-hidden="true"></i>&nbsp;&nbsp;Technology Director</p>
-                                    <p class="teacher-exp"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;Klick Health</p>
-                                    <button class="btn-find">Chọn</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-sx-4">
-                            <div class="search-result-block">
-                                <div class=" search-ava">
-                                    <img alt="Neil Atkin" class="imgAva" src="images/user2-160x160.jpg">
-                                </div>
-                                <div class=" search-resume">
-                                    <p class="teacher-name">Douglas Riches</p>
-                                    <p class="teacher-subject"><i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp;Info Technology</p>
-                                    <p class="teacher-class"><i class="fa fa-stack-overflow" aria-hidden="true"></i>&nbsp;&nbsp;12</p>
-                                    <p class="teacher-level"><i class="fa fa-superpowers" aria-hidden="true"></i>&nbsp;&nbsp;Technology Director</p>
-                                    <p class="teacher-exp"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;Klick Health</p>
-                                    <button class="btn-find">Chọn</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-sx-4">
-                            <div class="search-result-block">
-                                <div class=" search-ava">
-                                    <img alt="Neil Atkin" class="imgAva" src="images/user2-160x160.jpg">
-                                </div>
-                                <div class=" search-resume">
-                                    <p class="teacher-name">Douglas Riches</p>
-                                    <p class="teacher-subject"><i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp;Info Technology</p>
-                                    <p class="teacher-class"><i class="fa fa-stack-overflow" aria-hidden="true"></i>&nbsp;&nbsp;12</p>
-                                    <p class="teacher-level"><i class="fa fa-superpowers" aria-hidden="true"></i>&nbsp;&nbsp;Technology Director</p>
-                                    <p class="teacher-exp"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;Klick Health</p>
-                                    <button class="btn-find">Chọn</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-sx-4">
-                            <div class="search-result-block">
-                                <div class=" search-ava">
-                                    <img alt="Neil Atkin" class="imgAva" src="images/user2-160x160.jpg">
-                                </div>
-                                <div class=" search-resume">
-                                    <p class="teacher-name">Douglas Riches</p>
-                                    <p class="teacher-subject"><i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp;Info Technology</p>
-                                    <p class="teacher-class"><i class="fa fa-stack-overflow" aria-hidden="true"></i>&nbsp;&nbsp;12</p>
-                                    <p class="teacher-level"><i class="fa fa-superpowers" aria-hidden="true"></i>&nbsp;&nbsp;Technology Director</p>
-                                    <p class="teacher-exp"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;Klick Health</p>
-                                    <button class="btn-find">Chọn</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-sx-4">
-                            <div class="search-result-block">
-                                <div class=" search-ava">
-                                    <img alt="Neil Atkin" class="imgAva" src="images/user2-160x160.jpg">
-                                </div>
-                                <div class=" search-resume">
-                                    <p class="teacher-name">Douglas Riches</p>
-                                    <p class="teacher-subject"><i class="fa fa-list-alt" aria-hidden="true"></i>&nbsp;&nbsp;Info Technology</p>
-                                    <p class="teacher-class"><i class="fa fa-stack-overflow" aria-hidden="true"></i>&nbsp;&nbsp;12</p>
-                                    <p class="teacher-level"><i class="fa fa-superpowers" aria-hidden="true"></i>&nbsp;&nbsp;Technology Director</p>
-                                    <p class="teacher-exp"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;&nbsp;Klick Health</p>
-                                    <button class="btn-find">Chọn</button>
-                                </div>
-                            </div>
-                        </div>
+                <div id="custom-body" class="create-background custom-body">
+
+                    <div class="col-xs-24 col-xs-about" style="padding: 0 40px 40px 40px; margin: -15px 0; background-color: #fff">
+                        <p class="search-title">Giới thiệu</p>
+
+                        <div id="firm" class="aavn-firm">
+                        <img class="img-responsive " src="images/logo.png"/>
                     </div>
+                    <div class="info">
+                        Axon Active is <a href="http://www.axonactive.com/offshore-development-center/" target="_blank">Swiss offshore software development</a> company with strong <a href="http://www.axonactive.com/expertise/" target="_blank">expertise in Agile IT</a> and a large portfolio of successful international projects, ranging from small businesses to highly complex multi-platform systems for large corporate clients.
+                        <br/><br/>
+                        Axon Active builds solid partnerships with its clients by assembling tailored <a href="http://www.axonactive.com/services/" target="_blank">development teams in Vietnam</a> who deliver high-quality, innovative solutions at a very competitive price.
+                        <br/><br/>
+                        In 2008, Swiss-owned and managed, Axon Active created a high-performance, scalable software delivery infrastructure in Vietnam. The 300+ developers’ outsourcing organization offers the perfect mix of talent management, Agile and Scrum practices, technology skills and industry knowledge.
+                        <br/><br/>
+                        For more information about:
+                        <div style="margin-left: 25px">
+                            -&emsp;Axon services &amp; expertise, please visit: <a href="http://www.axonactive.com/" target="_blank">www.axonactive.com</a>
+                        </div>
+                        <div style="margin-left: 25px">
+                            -&emsp;Axon social life, just take a tour: <a href="https://www.fb.com/AxonActiveVietnam" target="_blank">www.fb.com/AxonActiveVietnam</a>
+                        </div>
+                        <br />
+                        Axon Active has years of experience in application development. Besides Awesome Event, Axon launched a dozen of awesome applications:
+                    </div>
+                    <div class="clr"></div>
+                </div>
             </div>
-		</div> <!-- end content -->
 
+
+        </div>
+
+    </div>
         <div class="footer margin-m3">
             <div class="footer_wrapper">
                 <div class="footer_block">
