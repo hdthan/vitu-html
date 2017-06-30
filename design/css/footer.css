@@ -3,14 +3,14 @@
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, img, strong, dl, dt, dd, ul, li, fieldset, form, label{
     border: 0;font-family: inherit;font-size: 100%;margin: 0;outline: 0;padding: 0;} :focus {outline: 0; }
 
-#footer{background: url(../images/bg_footer.jpg) no-repeat center; background-size: cover; }
+#footer{background: rgba(0, 0, 0, 0) url("../images/bg_footer.jpg") repeat fixed 50% 122px / cover padding-box border-box;}
 #footer h1{font: 700 18px/20px 'Montserrat', sans-serif; color: #63a5cf; text-transform: uppercase; margin-bottom: 20px;}
 #footer p{margin-bottom: 20px; font: 400 14px/20px 'Roboto', sans-serif; color: #63a5cf;}
 #footer p span{display: block; margin-bottom: 5px;}
 #footer a{color: #63a5cf;}
 
 * {padding: 0;margin: 0;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
-.footer {font-size: 57%;font-family: arial, sans-serif;background: url(../images/bg_footer.jpg) no-repeat center; background-size: cover; text-align: center;
+.footer {font-size: 57%;font-family: arial, sans-serif;background: rgba(0, 0, 0, 0) url("../images/bg_footer.jpg") repeat fixed 50% 122px / cover padding-box border-box; text-align: center;
     padding: 10px 20px 10px 20px;clear: both;position: relative;/*margin-top: -3em;*/}
 
 .footer_wrapper {font-size: 1.6em;padding: 2em;margin: 0 auto;width: 1100px;color: white;/*background-color: red;*/}
@@ -50,7 +50,7 @@ a:link {text-decoration: none;}
 
 @media only screen and (min-width: 855px) and (max-width: 1130px) {* { padding: 0; margin: 0; -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box; box-sizing: border-box;}
-.footer { font-size: 60%; font-family: Arial,sans-serif; background: url(../images/bg_footer.jpg) no-repeat center; background-size: cover;  text-align: center; padding: 10px 0 10px 0;}
+.footer { font-size: 60%; font-family: Arial,sans-serif; background: rgba(0, 0, 0, 0) url("../images/bg_footer.jpg") repeat fixed 50% 122px / cover padding-box border-box;  text-align: center; padding: 10px 0 10px 0;}
 .footer-social-icon-corner{ text-align: left; padding: 10px;}
 .footer_wrapper { font-size: 1.6em; padding: 2em; margin: 0 auto; width: 860px; color: white; /*background-color: red;*/}
 .footer_block { display: block;}
@@ -87,7 +87,7 @@ a:link { text-decoration: none;}}
 @media only screen and (min-width: 600px) and (max-width: 854px) {* { padding: 0; margin: 0;
     -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
     #footer_company_logo { width: 150px; margin-left: 0;}
-.footer { font-size: 62.5%; font-family: arial, sans-serif; background: url(../images/bg_footer.jpg) no-repeat center; background-size: cover;  text-align: center;
+.footer { font-size: 62.5%; font-family: arial, sans-serif; background: rgba(0, 0, 0, 0) url("../images/bg_footer.jpg") repeat fixed 50% 122px / cover padding-box border-box;  text-align: center;
     padding: 10px 0 10px 0;}
 .footer-social-icon-corner{ text-align: left;}
 
@@ -127,7 +127,7 @@ a:link { text-decoration: none;}}
 @media only screen and (min-width: 0) and (max-width: 599px) {* { padding: 0; margin: 0; -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box; box-sizing: border-box;}
     .footer_header-edit{ margin-left: 0;}
-    .footer { font-size: 62.5%; font-family: arial, sans-serif; background: url(../images/bg_footer.jpg) no-repeat center; background-size: cover;  text-align: center;
+    .footer { font-size: 62.5%; font-family: arial, sans-serif; background: rgba(0, 0, 0, 0) url("../images/bg_footer.jpg") repeat fixed 50% 122px / cover padding-box border-box;  text-align: center;
         padding: 10px 0 10px 0;}
 .footer_wrapper { font-size: 1.6em; padding: 2em; margin: 0 auto; width: 280px; color: white; /*background-color: red;*/}
 .footer_block { display: block;}

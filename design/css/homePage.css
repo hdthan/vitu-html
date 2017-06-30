@@ -91,9 +91,9 @@ h2{font: 700 18px/20px 'Montserrat', sans-serif; color: #009cff; text-transform:
 .u4812-12 { z-index: 66; max-width: 700px; min-height: 132px; background-color: transparent;
  color: #FFFFFF; text-align: center; right: -65%;
  margin-top: 23px; position: relative;font: normal normal 300 normal 24px / 40px Roboto, sans-serif;}
-#bg-vitu-1{ background-image: url("../images/bg2.jpg"); background-repeat:no-repeat; background-size:cover; background-position:center;
+#bg-vitu-1{ background: rgba(0, 0, 0, 0) url("../images/bg2.jpg") repeat fixed 50% 122px / cover padding-box border-box;
  -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; height: 700px;}
-#bg-vitu-2{ background-image: url("../images/bg1.jpg"); background-repeat:no-repeat; background-size:cover; background-position:center;
+#bg-vitu-2{ background: rgba(0, 0, 0, 0) url("../images/bg1.jpg") repeat fixed 50% 122px / cover padding-box border-box;
  -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; height: 700px;}
 
 .info-vitu-2{ z-index: 62;  width: 1100px; margin: 0px auto ; color: #009cff;

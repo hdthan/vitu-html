@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26698859-35e6-490b-bd4e-8f2b3da48f9b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/images/bg3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/images/bg_footer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/design/css/reviews.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/news-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/news-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/news-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/news-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/tour-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/tour-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/tour-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/tour-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/tour-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/tour-6.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/images/fav.png" afterPath="$PROJECT_DIR$/design/images/fav.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/images/icons.png" afterPath="$PROJECT_DIR$/design/images/icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/images/logo.png" afterPath="$PROJECT_DIR$/design/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vitu.iml" afterPath="$PROJECT_DIR$/.idea/vitu.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/css/footer.css" afterPath="$PROJECT_DIR$/design/css/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/css/header.css" afterPath="$PROJECT_DIR$/design/css/header.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/css/homePage.css" afterPath="$PROJECT_DIR$/design/css/homePage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/homePage.html" afterPath="$PROJECT_DIR$/design/homePage.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,11 +21,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.43136385">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="homePage.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="homePage.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/design/css/homePage.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="236">
-                  <caret line="92" column="78" lean-forward="false" selection-start-line="92" selection-start-column="78" selection-end-line="92" selection-end-column="78" />
+                <state relative-caret-position="287">
+                  <caret line="93" column="59" lean-forward="false" selection-start-line="93" selection-start-column="59" selection-end-line="93" selection-end-column="59" />
                   <folding />
                 </state>
               </provider>
@@ -58,11 +38,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="footer.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="footer.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/design/css/footer.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="321">
-                  <caret line="33" column="129" lean-forward="false" selection-start-line="33" selection-start-column="129" selection-end-line="33" selection-end-column="129" />
+                <state relative-caret-position="288">
+                  <caret line="25" column="93" lean-forward="true" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="93" />
                   <folding />
                 </state>
               </provider>
@@ -91,8 +71,8 @@
           <file leaf-file-name="reviews.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/design/css/reviews.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="112" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="112" />
                   <folding />
                 </state>
               </provider>
@@ -105,8 +85,8 @@
           <file leaf-file-name="homePage.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/design/homePage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="662">
-                  <caret line="474" column="57" lean-forward="false" selection-start-line="474" selection-start-column="57" selection-end-line="474" selection-end-column="57" />
+                <state relative-caret-position="362">
+                  <caret line="437" column="48" lean-forward="true" selection-start-line="437" selection-start-column="48" selection-end-line="437" selection-end-column="48" />
                   <folding>
                     <element signature="n#style#0;n#select#0;n#label#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#select#0;n#label#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -131,9 +111,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>navwrp</find>
-      <find>block</find>
-      <find>png</find>
       <find>boot</find>
       <find>jq</find>
       <find>38</find>
@@ -161,6 +138,9 @@
       <find>#000</find>
       <find>23</find>
       <find>top</find>
+      <find>back</find>
+      <find>bg1</find>
+      <find>bg_</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -183,10 +163,10 @@
         <option value="$PROJECT_DIR$/design/Life Travel.html" />
         <option value="$PROJECT_DIR$/design/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/design/css/header.css" />
-        <option value="$PROJECT_DIR$/design/css/homePage.css" />
         <option value="$PROJECT_DIR$/design/css/reviews.css" />
-        <option value="$PROJECT_DIR$/design/css/footer.css" />
         <option value="$PROJECT_DIR$/design/homePage.html" />
+        <option value="$PROJECT_DIR$/design/css/footer.css" />
+        <option value="$PROJECT_DIR$/design/css/homePage.css" />
       </list>
     </option>
   </component>
@@ -781,7 +761,7 @@
       <updated>1498448357831</updated>
       <workItem from="1498448359211" duration="27338000" />
       <workItem from="1498545760554" duration="29205000" />
-      <workItem from="1498640423494" duration="26766000" />
+      <workItem from="1498640423494" duration="27954000" />
     </task>
     <task id="LOCAL-00001" summary="move to new folder">
       <created>1498449208230</created>
@@ -853,11 +833,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498645984210</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Done reviews + resp">
+      <created>1498733459156</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1498733459156</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83309000" />
+    <option name="totallyTimeSpent" value="84497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -907,7 +894,8 @@
     <MESSAGE value="done header + responsive&#10;Done search" />
     <MESSAGE value="Done First info part + resp" />
     <MESSAGE value="Done 3 info part + resp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done 3 info part + resp" />
+    <MESSAGE value="Done reviews + resp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done reviews + resp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1125,6 +1113,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="1126" column="22" lean-forward="false" selection-start-line="1126" selection-start-column="19" selection-end-line="1126" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,34 +1212,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/css/homePage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="92" column="78" lean-forward="false" selection-start-line="92" selection-start-column="78" selection-end-line="92" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/css/reviews.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/css/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="33" column="129" lean-forward="false" selection-start-line="33" selection-start-column="129" selection-end-line="33" selection-end-column="129" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design/homePage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="474" column="57" lean-forward="false" selection-start-line="474" selection-start-column="57" selection-end-line="474" selection-end-column="57" />
+        <state relative-caret-position="362">
+          <caret line="437" column="48" lean-forward="true" selection-start-line="437" selection-start-column="48" selection-end-line="437" selection-end-column="48" />
           <folding>
             <element signature="n#style#0;n#select#0;n#label#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#select#0;n#label#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1265,6 +1230,30 @@
             <marker date="1498733250594" expanded="false" signature="31793:31807" ph="..." />
             <marker date="1498733250594" expanded="false" signature="32425:32439" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/css/reviews.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="112" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/css/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="25" column="93" lean-forward="true" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/css/homePage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="93" column="59" lean-forward="false" selection-start-line="93" selection-start-column="59" selection-end-line="93" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
