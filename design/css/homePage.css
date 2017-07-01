@@ -47,12 +47,12 @@ a:hover,a:focus {color: #ff9600; }
 .table_cell h5 span{color: #fff000;}
 .table_cell .container{margin-top: -40px;}
 
-.block-search{position: absolute; bottom: 15%; left: 0; width: 100%; z-index: 10;}
-.search-info{background: rgba(0,0,0,0.50); padding: 20px;}
+.block-search{position: absolute; bottom: 10%; left: 0; width: 100%; z-index: 10;}
+.search-info{background: rgba(0,0,0,0.50); padding: 10px 20px;}
 .block-search label{width: 100%; position: relative; cursor: pointer;}
 .block-search label:after {content:''; right:8px; top:50%; margin-top: -4px; position:absolute; pointer-events:none; width: 6px; height: 8px; background: url(../images/icons.png) no-repeat -96px 0; }
 .block-search select {-webkit-appearance:none; -moz-appearance:none; appearance:none; cursor:pointer;}
-.search-input{padding: 0 6px;}
+.search-input{padding: 6px 6px;}
 
 .btn-find{ display: block; text-align: center; margin: 0px auto; padding-top: 2px;
     background: #ff9600; font: 400 14px/30px 'Roboto', sans-serif; border: none; text-transform: uppercase;
@@ -155,6 +155,9 @@ h2{font: 700 18px/20px 'Montserrat', sans-serif; color: #009cff; text-transform:
     .u4813{height: 500px;}
     #bg-vitu-1{height: 500px;}
     #bg-vitu-2{height: 500px;}
+    .table_cell .container {
+        margin-top: 7px;
+    }
 }
 
 
@@ -168,19 +171,32 @@ h2{font: 700 18px/20px 'Montserrat', sans-serif; color: #009cff; text-transform:
     .u4812-12{font-size: 13px;    max-width: 320px; }
     .u4813_align_to_page{padding-top: 10px; left: 0px; min-width: 300px}
     .info-vitu-2{font-size: 18px; line-height: 28px; width: 250px}
-
+    .table_cell h5{
+        font-size: 20px;
+    }
 }
 @media (max-width: 420px){
 	.logo{max-width: 150px;}
 	a.smobitrigger{top: 20px;}
     .search-input{width: 50%}
-    .search-input-button {width: 100%}
+    .search-input-button {width: 100%; margin: 0 auto}
     .info-icon .fa-4x {font-size: 2em}
     .info-icon h5 {font-size: 12px;}
+    #search-input{width: 100%}
+    .table_cell .container {
+        margin-top: 7px;
+
+    }
+
 }
 @media (max-width: 360px){
     .u4811-4 {font-size: 18px;    width: 200px   ; margin-left: 1px }
     .u4812-12{font-size: 13px;    max-width: 200px; max-height: 300px;        overflow: auto;}
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+    .table_cell .container {
+        margin-top: -114px;
+    }
 }
 /*==========================================================================*/
 
