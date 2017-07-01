@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26698859-35e6-490b-bd4e-8f2b3da48f9b" name="Default" comment="finish search page _ about us page&#10;">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/design/images/bg_footer.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/images/bg1.jpg" afterPath="$PROJECT_DIR$/design/images/bg1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/images/bg2.jpg" afterPath="$PROJECT_DIR$/design/images/bg2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/images/bg3.jpg" afterPath="$PROJECT_DIR$/design/images/bg3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/images/bg_footer.jpg" afterPath="$PROJECT_DIR$/design/images/bg_footer.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/images/slider-2.jpg" afterPath="$PROJECT_DIR$/design/images/slider-2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/design/images/slider.jpg" afterPath="$PROJECT_DIR$/design/images/slider.jpg" />
+    <list default="true" id="26698859-35e6-490b-bd4e-8f2b3da48f9b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -804,7 +797,7 @@
       <workItem from="1498448359211" duration="27338000" />
       <workItem from="1498545760554" duration="29205000" />
       <workItem from="1498640423494" duration="45652000" />
-      <workItem from="1498832955075" duration="5161000" />
+      <workItem from="1498832955075" duration="5222000" />
     </task>
     <task id="LOCAL-00001" summary="move to new folder">
       <created>1498449208230</created>
@@ -911,11 +904,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498836350325</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="reduce img&#10;">
+      <created>1498920292553</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1498920292553</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107356000" />
+    <option name="totallyTimeSpent" value="107417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
@@ -969,7 +969,8 @@
     <MESSAGE value="Change Background-style" />
     <MESSAGE value="Change Background-style 2" />
     <MESSAGE value="finish search page _ about us page&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish search page _ about us page&#10;" />
+    <MESSAGE value="reduce img&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="reduce img&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
